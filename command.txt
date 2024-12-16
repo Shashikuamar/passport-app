@@ -1,0 +1,61 @@
+
+
+
+
+  yum list maven
+   65     12  sudo yum install mvn
+   66     13  sudo yum install maven
+   67     14  mvn -v
+   68     15  mvn archetype:generate -DgroupId=shashi.com -DartifactId=passport-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5
+   69     16  ls
+   70     17  cd passport-app/
+   71     18  mvn clean install
+   72     19  ls
+   73     20  cd target/
+   74     21  cd ../src/main/java/shashi/com/
+   75     22  ls
+   76     23  vim App.java
+   77     24  cd
+   78     25  cd passport-app/
+   79     26  ls
+   80     27  cd target/
+   81     28  java -cp passport-app-1.0-SNAPSHOT.jar shashi.com.App
+   82     29  cd
+   83     30  cd passport-app/
+   84     31  mvn clean
+   85     32  ls
+   86     33  pwd
+   87     34  git init
+   88     35  sudo yum install git
+   89     36  git init
+   90     37  ls
+   91     38  ls -la
+   92     39  pwd
+   93     40  cd /home
+   94     41  ls
+   95     42  ssls -la
+   96     43  ls -la
+   97     44  cd
+   98     45  ls
+   99     46  cd passport-app/
+  100     47  git branch
+  101     48  git branch -m development
+  102     49  git branch
+  103     50  git status
+  104     51  git add .
+  105     52  git commit -m "oneplus - created a maven project"
+  106     53  git status
+  107     54  git push origin development https://github.com/Shashikuamar/passport-app.git
+  108     55  ssh-keygen -t rsa
+  109     56  cat /home/ec2-user/.ssh/id_rsa
+  110     57  cat /home/ec2-user/.ssh/id_rsa.pub
+  111     58  git clone git@github.com:Shashikuamar/passport-app.git
+  112     59  ls
+  113     60  git remote add origin git@github.com:Shashikuamar/passport-app.git
+  114     61  git remote -v
+  115     62  git push origin development
+  116     63  history
+  117  clear
+  118  vim command.txt
+  119  history
+
